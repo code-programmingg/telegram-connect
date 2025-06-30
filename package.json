@@ -1,0 +1,19 @@
+{
+  "name": "telegram-connect",
+  "description": "A simple library for connect to telegram bot, modern, functional, and dinamic",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/cjs/core/index.cjs",
+  "exports": {
+    "import": "./src/esm/core/index.js",
+    "require": "./src/cjs/core/index.cjs"
+  },
+  "scripts": {
+    "start": "node src/esm/core/index.js",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "node-fetch": "^3.3.2"
+  }
+}
